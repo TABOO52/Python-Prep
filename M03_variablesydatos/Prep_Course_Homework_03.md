@@ -10,7 +10,7 @@
 
 5) Crear una variable que contenga un número complejo
 
-6) Mostrar el tipo de dato de la variable crada en el punto 5
+6) Mostrar el tipo de dato de la variable creada en el punto 5
 
 7) Crear una variable que contenga el valor del número Pi redondeado a 4 decimales
 
