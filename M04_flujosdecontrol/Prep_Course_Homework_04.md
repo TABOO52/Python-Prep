@@ -17,6 +17,19 @@
 8) Crear un ciclo while dentro de un ciclo for
 
 9) Imprimir los números primos existentes entre 0 y 30
+n=0
+while n<=30:
+    contador=1
+    x=0
+    while contador<=n:
+        print("este es el contador",contador)
+        if n % contador == 0:
+            x+=1
+        contador+=1
+    print("este es x",x)
+    if x==2:
+        print(n)
+    n+=1
 
 10) ¿Se puede mejorar el proceso del punto 9? Utilizar las sentencias break y/ó continue para tal fin
 

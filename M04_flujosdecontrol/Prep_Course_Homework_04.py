@@ -70,7 +70,19 @@
 # 9) Imprimir los números primos existentes entre 0 y 30
 
 # In[54]:
-
+n=0
+while n<=30:
+    contador=1
+    x=0
+    while contador<=n:
+        print("este es el contador",contador)
+        if n % contador == 0:
+            x+=1
+        contador+=1
+    print("este es x",x)
+    if x==2:
+        print(n)
+    n+=1
 
 
 
